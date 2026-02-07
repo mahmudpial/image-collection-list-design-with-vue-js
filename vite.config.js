@@ -8,7 +8,8 @@ import vueDevTools from "vite-plugin-vue-devtools";
 export default defineConfig({
   plugins: [vue(), vueDevTools()],
   // For GitHub Pages deployment, add the following line to set the base path:
-  base: "/https://mahmudpial.github.io/image-collection-list-design-with-vue-js/", // ← replace with your GitHub repo name
+  base: "/image-collection-list-design-with-vue-js/", // ✅ repo name only
+
   resolve: {
     alias: {
       "@": fileURLToPath(new URL("./src", import.meta.url)),
