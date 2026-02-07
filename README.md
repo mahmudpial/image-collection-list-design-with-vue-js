@@ -1,3 +1,4 @@
+<img width="1635" height="916" alt="Screenshot 2026-02-07 at 3 51 38 PM" src="https://github.com/user-attachments/assets/35b231ba-f370-422c-bdb3-7e75faa61377" />
 # Image Collection List Design with Vue.js
 
 A sleek and responsive **image collection list** built using **Vue 3** and **Vite**. This project demonstrates:
