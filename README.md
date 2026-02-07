@@ -1,37 +1,34 @@
-# vue-project
+<img width="1635" height="916" alt="Screenshot 2026-02-07 at 3 51 38 PM" src="https://github.com/user-attachments/assets/8f8ea4d0-3a97-4ad2-ac9a-c3b081607fc7" />
+# Image Collection List Design with Vue.js
 
-This template should help get you started developing with Vue 3 in Vite.
+A sleek and responsive **image collection list** built using **Vue 3** and **Vite**. This project demonstrates:
 
-## Recommended IDE Setup
+- Component-based design with Vue.js
+- Handling static assets (images) using `public/` and `src/assets/`
+- Deployment to **GitHub Pages ** with correct asset paths
+- Modern front-end build tools and workflows with Vite
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## Features
 
-## Recommended Browser Setup
+- Responsive image grid
+- Optimized for both **local development** and **GitHub Pages**
+- Clean and maintainable project structure
+- Easy to extend with new images or categories
 
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
+## Demo
 
-## Customize configuration
+Check it out on GitHub Pages:  
+[https://mahmudpial.github.io/image-collection-list-design-with-vue-js/](https://mahmudpial.github.io/image-collection-list-design-with-vue-js/)
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+## Installation
 
-## Project Setup
+Clone the repository:
 
-```sh
+```bash
+git clone https://github.com/mahmudpial/image-collection-list-design-with-vue-js.git
+cd image-collection-list-design-with-vue-js
 npm install
-```
 
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
 
 ```sh
 npm run build
