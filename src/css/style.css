@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700;900&family=Poppins:wght@300;400;500;700&display=swap');
+
+:root {
+    --bg-body: #d8d9e2;
+    --bg-item: #eef0f2;
+    --bg-section-li: #ffffff;
+    --circle: #e5e8f0;
+    --text: #0c063a;
+    --font-titles: 'Merriweather', serif;
+    --font-main: 'Poppins', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: var(--font-main);
+    color: var(--text);
+    background-color: var(--bg-body);
+    position: relative;
+}
+
+.circle-one {
+    position: absolute;
+    top: 10px;
+    right: 400px;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    background-color: var(--circle);
+    z-index: -1;
+}
+
+.circle-two {
+    position: absolute;
+    left: 300px;
+    bottom: 10px;
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+    background-color: var(--circle);
+    z-index: -1;
+}
+
+.container {
+    background-color: var(--bg-item);
+    width: 1200px;
+    height: 600px;
+    border-radius: 20px;
+    padding: 40px 0px;
+    box-shadow: 0px 50px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+.inner-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+h1 {
+    font-family: var(--font-titles);
+    font-size: 1.6rem;
+    margin-left: 38px;
+    margin-bottom: 20px;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    column-gap: 8px;
+    list-style: none;
+    margin-left: 38px;
+    margin-bottom: 34px;
+}
+
+li {
+    background-color: var(--bg-section-li);
+    padding: 4px 10px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 180ms ease-in;
+}
+
+li:hover {
+    background-color: var(--circle);
+}
+
+section {
+    background-color: var(--bg-section-li);
+    width: 350px;
+    height: 400px;
+    border-radius: 28px;
+    padding: 18px;
+    transition: all 180ms ease-in
+}
+
+section:hover {
+    box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+img {
+    border-radius: 24px;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+section>img:first-of-type {
+    width: 100%;
+    height: 60%;
+    margin-bottom: 12px;
+}
+
+.images {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.images img {
+    width: 30%;
+    height: 80px;
+    border-radius: 16px;
+}
+
+.pic-number {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.pic-number h3 {
+    font-weight: 500;
+    font-size: 1.3rem;
+}
+
+.num {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.num i {
+    font-size: 1.4rem;
+}
+
+.num p {
+    font-weight: 500;
+}
+
+@media screen and (max-width: 1200px) {
+
+    body {
+        height: fit-content;
+        padding: 30px 0px 40px 0px;
+    }
+
+    .container {
+        width: 750px;
+        height: fit-content;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    ul {
+        margin-bottom: 20px;
+    }
+
+    .inner-container {
+        flex-direction: column;
+        row-gap: 24px;
+        width: 100%;
+    }
+
+    section {
+        width: 100%;
+        height: fit-content;
+    }
+
+    .images img {
+        height: 150px;
+        width: 32%;
+    }
+
+    section>img:first-of-type {
+        height: 300px;
+    }
+
+}
+
+@media screen and (max-width: 750px) {
+    .container {
+        width: 450px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    li {
+        font-size: 0.7rem;
+    }
+
+    .inner-container {
+        row-gap: 16px;
+    }
+
+    .images img {
+        height: 90px;
+        width: 32%;
+    }
+}
