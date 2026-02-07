@@ -35,7 +35,6 @@ https://mahmudpial.github.io/image-collection-list-design-with-vue-js/
 
 ## 📂 Project Structure
 
-```text
 public/
   images/
 src/
@@ -45,13 +44,6 @@ src/
 vite.config.js
 
 
-## Features
-
-- Responsive image grid
-- Optimized for both **local development** and **GitHub Pages**
-- Clean and maintainable project structure
-- Easy to extend with new images or categories
-
 ## Installation
 
 Clone the repository:
@@ -60,9 +52,5 @@ Clone the repository:
 git clone https://github.com/mahmudpial/image-collection-list-design-with-vue-js.git
 cd image-collection-list-design-with-vue-js
 npm install
-
-
-```sh
 npm run build
 ```
-# image-collection-list-design-with-vue-js
